@@ -1,0 +1,15 @@
+api:
+  key: "AIzaSyAUqVv-NVnUWKsnXmOeItBcb_-MouhPJIw"
+  model: "gemini-2.0-pro-exp-02-05"
+
+text:
+  window_size: 1000
+  tokenizer: "tiktoken"
+  buch_datei: "book.txt"
+  gewichtungsstrategie: "Kombinierte"
+
+stopwords:
+  - "der"
+  - "die"
+  - "das"
+  - "und"
